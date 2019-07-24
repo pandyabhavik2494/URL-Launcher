@@ -49,8 +49,8 @@ Demo Images :
 
 
 
-**Leetcode Notification Popup_2 in the Extension (Customizable Notification Settings) :**
+**Leetcode Notification Popup_2 in the Extension. Seen only when you click on canle in the earlier popup :**
 
-![Coding%20Popup2](https://github.com/pandyabhavik2494/Screenshots/blob/master/Coding%20Popup2.png)
+![SecondPopup](https://github.com/pandyabhavik2494/Screenshots/blob/master/SecondPopup.png)
 
 
