@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
              document.getElementById("leetIcon").style.color = "#2F7DDB";
              window.open('https://leetcode.com', '_blank');
             } else {
-              swal("Make sure to fill your solve a coding problem later!");
+              swal("Make sure to solve a coding problem later!");
               document.getElementById("leetIcon").style.color = "#F14545";
             }
           });
