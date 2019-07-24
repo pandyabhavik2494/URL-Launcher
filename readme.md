@@ -23,7 +23,7 @@ https://www.cnet.com/how-to/how-to-install-chrome-extensions-manually/
 
 Feel free to use the code as per your wish and have some fun!
    
-Demo Images : (Please do checkout the Demo Video in the Demo_Images & Video folder)
+Demo Images : 
 
 **Default look of the Extension :**
 
