@@ -16,3 +16,10 @@ There are 2 additional features in the extension:
    Also the LeetCode Icon turns red during this time interval. Once you click on the open LeetCode button on the popup, the      notification reminding you to solve a LeetCode problem in the extension goes away.
    The URL for which you can set the notification and the time/day setting for the notification is customizable.
    
+   
+In order to see a demo of the chrome extension take a clone of the project and add it to your chrome browser using the following steps : 
+https://www.cnet.com/how-to/how-to-install-chrome-extensions-manually/
+
+
+Feel free to use the code as per your wish and have some fun!
+   
