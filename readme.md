@@ -49,7 +49,7 @@ Demo Images :
 
 
 
-**Leetcode Notification Popup_2 in the Extension. Seen only when you click on canle in the earlier popup :**
+**Leetcode Notification Second Popup in the Extension. Seen only when you click on cancel in the earlier popup :**
 
 ![SecondPopup](https://github.com/pandyabhavik2494/Screenshots/blob/master/SecondPopup.png)
 
