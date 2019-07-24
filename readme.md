@@ -25,23 +25,31 @@ Feel free to use the code as per your wish and have some fun!
    
 Demo Images : (Please do checkout the Demo Video in the Demo_Images & Video folder)
 
-**Default look of the Extension**
+**Default look of the Extension :**
 
 ![DefaultLook](https://github.com/pandyabhavik2494/Screenshots/blob/master/DefaultLook.png)
 
-**LinkedIn Notification in the Extension (Customizable Notification Settings)**
+
+
+**LinkedIn Notification in the Extension (Customizable Notification Settings) :**
 
 ![LinkedInIconReminder](https://github.com/pandyabhavik2494/Screenshots/blob/master/LinkedInIconReminder.png)
 
-**Leetcode Notification in the Extension (Customizable Notification Settings)**
+
+
+**Leetcode Notification in the Extension (Customizable Notification Settings) :**
 
 ![Leetcoode%20IconReminder](https://github.com/pandyabhavik2494/Screenshots/blob/master/Leetcoode%20IconReminder.png)
 
-**Leetcode Notification Popup_1 in the Extension (Customizable Notification Settings)**
+
+
+**Leetcode Notification Popup_1 in the Extension (Customizable Notification Settings) :**
 
 ![Coding%20Popup](https://github.com/pandyabhavik2494/Screenshots/blob/master/Coding%20Popup.png)
 
-**Leetcode Notification Popup_2 in the Extension (Customizable Notification Settings)**
+
+
+**Leetcode Notification Popup_2 in the Extension (Customizable Notification Settings) :**
 
 ![Coding%20Popup2](https://github.com/pandyabhavik2494/Screenshots/blob/master/Coding%20Popup2.png)
 
