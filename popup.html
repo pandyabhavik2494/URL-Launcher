@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>URL Launcher For Coders</title>
+  <script src="node_modules/sweetalert/dist/sweetalert.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/> 
+  <script src="popup.js"></script>
+  <script src="urls.js"></script>
+</head>
+
+<body>
+  <div class="modal-header">
+    <h1 class="logo">
+      <img class="logo-icon" src="images/code.png">URL Launcher For Coders
+    </h1>
+  </div>
+
+  <div class="modal-content">
+    <div style="font-size: 20px;font-family:'Menlo',monospace;margin-top: 10px;margin-left: 23px;">Notifications:</div>
+    <marquee scrollamount="3" style="color:#3232FF;height: 50px;margin-left: 50%;margin-top: -40px;margin-left: 50%;" id="notifications" direction="down"></marquee>
+  </div>
+
+  <div class="modal-icons">
+    <div class="dataHeading">Learn Coding :</div>
+    <div class="flex-container">
+
+        <div class="flex">
+            <h5 style="margin-left: 10px;">Udemy</h5>
+            <a id="udemy" target="_blank">
+              <i style="margin-left: 13px;" class="fa fa-wpforms"></i>
+            </a>
+        </div>
+
+      <div class="flex">
+        <h5 style="margin-left: 10px;">Coursera</h5>
+        <a id="coursera" target="_blank">
+          <i style="margin-left: 16px;" class="fa fa-contao"></i>
+        </a>
+      </div>
+
+      <div class="flex">
+          <h5 style="margin-left: 7px;">W3Schools</h5>
+        <a id="w3school" target="_blank">
+          <i style="margin-left: 18px;" class="	fa fa-vk"></i>
+        </a>
+      </div>
+
+      <div class="flex">
+          <h5 style="margin-left: 10px;">Tutorials Point</h5>
+        <a  id="tutpnt" target="_blank">
+          <i  style="margin-left: 22px;" class="fa fa-trello"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+  
+
+
+  <div class="modal-icons">
+      <div class="dataHeading">Q & A :</div>
+    <div class="flex-container">
+
+      <div class="flex">
+        <h5 style="margin-left: 10px;">Stack Overflow</h5>
+        <a id="stkover" target="_blank">
+          <i  style="margin-left: 13px;" class="fa fa-stack-overflow"></i>
+        </a>
+      </div>
+
+      <div class="flex">
+          <h5 style="margin-left: 10px;">Reddit</h5>
+        <a id="reddit" target="_blank">
+          <i style="margin-left: 16px;" class="fa fa-reddit"></i>
+        </a>
+      </div>
+
+      <div class="flex">
+          <h5 style="margin-left: 7px;">Stack Exchange</h5>
+        <a id="stkex" target="_blank">
+          <i style="margin-left: 22px;" class="fa fa-stack-exchange"></i>
+        </a>
+      </div>
+
+      <div class="flex">
+          <h5 style="margin-left: 22px;">Quora</h5>
+        <a id="quora"  target="_blank">
+          <i style="margin-left: 22px;" class="fa fa-quora"></i>
+        </a>
+      </div>
+      
+    </div>
+  </div>
+
+
+  <div class="modal-icons">
+    <div class="dataHeading">Practice Coding :</div>
+    <div class="flex-container">
+
+        <div class="flex">
+            <h5 style="margin-left: 10px;">Top Coder</h5>
+          <a id="topcoder" target="_blank">
+            <i style="margin-left: 13px;" class="fa fa-tumblr"></i>
+          </a>
+        </div>
+
+        <div class="flex">
+            <h5 style="margin-left: 10px;font-size: 11px;">CodeChef</h5>
+          <a id="codechef" target="_blank">
+            <i style="margin-left: 16px;" class="fa fa-codiepie"></i>
+          </a>
+        </div>
+
+        <div class="flex">
+            <h5 style="margin-left: 10px;">LeetCode</h5>
+          <a id="leetcode"  target="_blank">
+            <i style="margin-left: 18px;" id="leetIcon" class="fa fa-linode"></i>
+          </a>
+        </div>
+        
+        <div class="flex">
+          <h5 style="margin-left: 10px;">Hacker Rank</h5>
+        <a id="hackerrank" target="_blank">
+          <i style="margin-left: 26px;" class="fa fa-houzz"></i>
+        </a>
+        </div>
+
+    </div>
+  </div>
+
+  <div class="modal-icons">
+    <div class="dataHeading">Social Media :</div>
+    <div class="flex-container">
+
+        <div class="flex">
+            <h5 style="margin-left: 10px;">Facebook</h5>
+            <a id="fb" target="_blank">
+              <i style="margin-left: 13px;" class="fa fa-facebook-square"></i>
+            </a>
+        </div>
+
+      <div class="flex">
+        <h5 style="margin-left: 10px;">Twitter</h5>
+        <a id="twitter" target="_blank">
+          <i style="margin-left: 16px;" class="fa fa-twitter-square"></i>
+        </a>
+      </div>
+
+      <div class="flex">
+          <h5 style="margin-left: 10px;">LinkedIn</h5>
+        <a id="linkedin" target="_blank">
+          <i style="margin-left: 18px;" id="lnkin" class="fa fa-linkedin-square"></i>
+        </a>
+      </div>
+
+      <div class="flex">
+          <h5 style="margin-left: 10px;">Youtube</h5>
+        <a id="youtube" target="_blank">
+          <i style="margin-left: 22px;" class="fa fa-youtube-play"></i>
+        </a>
+      </div>
+      
+    </div>
+  </div>
+  
+</body>
+</html>
